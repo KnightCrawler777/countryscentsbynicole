@@ -117,9 +117,7 @@ div.topbar {
 		border: 0 none white; /* remove background brown color */
 		font-size: 36px; /* font size */ 
 		font-weight: 900; /* make boldness as bold as possible */ 
-		margin-left: 100px;
-		margin-top: 7px;
-		float: left;
+		text-align: center;
 	}
 
 	.button a {
