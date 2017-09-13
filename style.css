@@ -147,7 +147,7 @@ div.topbar {
 	}
 	
 	.buttons em {
-		margin-left: 0; /* remove margin from title because I'm an idiot and put title in the buttons <div>
+		margin-left: 0px; /* remove margin from title because I'm an idiot and put title in the buttons <div>
 	}
 
 	.box1 {
