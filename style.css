@@ -48,7 +48,7 @@ div.topbar {
 	margin-top: 7px;
 }
 
-.button a {
+.buttons a {
   background: rgb(201,142,84); /* button fill color */
   border: 3px solid rgb(201,142,84); /* button border */
   border-radius: 5px; /* curvature of the button corners */
@@ -60,7 +60,7 @@ div.topbar {
   text-decoration:none; /* removes underlink from links */
 }
 
-.button a:hover {
+.buttons a:hover {
   background: white; /* background color */
   border: 3px solid rgb(201,142,84); /* button border */
   color: rgb(201,142,84); /* text color */
@@ -121,20 +121,24 @@ div.topbar {
 		text-align: center;
 	}
 
-	.button a {
-	  background: rgb(201,142,84); /* button fill color */
-	  border: 3px solid rgb(201,142,84); /* button border */
-	  border-radius: 5px; /* curvature of the button corners */
-	  color: white; /* text color */
-	  display: inline-block; 
-	  margin: 10px; /* space between edge of webpage and button */
-	  margin-top: 10px; /* margin above the boxes */
-	  padding: 11px; /* space between words and edge of button */
-	  text-decoration:none; /* removes underlink from links */
-	  font-size: 30px;
+	.buttons {
+		margin-left: 125px;
+	}
+	
+	.buttons a {
+		background: rgb(201,142,84); /* button fill color */
+		border: 3px solid rgb(201,142,84); /* button border */
+		border-radius: 5px; /* curvature of the button corners */
+		color: white; /* text color */
+		display: inline-block; 
+		margin: 10px; /* space between edge of webpage and button */
+		margin-top: 10px; /* margin above the boxes */
+		padding: 11px; /* space between words and edge of button */
+		text-decoration:none; /* removes underlink from links */
+		font-size: 30px;
 	}
 
-	.button a:hover {
+	.buttons a:hover {
 	  background: white; /* background color */
 	  border: 3px solid rgb(201,142,84); /* button border */
 	  color: rgb(201,142,84); /* text color */
