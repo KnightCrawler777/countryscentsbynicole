@@ -119,9 +119,9 @@ div.topbar {
 		color: rgb(201,142,84); /* text color */ 
 		background: white; /* color of background of "button", make white so its not visible */ 
 		border: 0 none white; /* remove background brown color */
-		font-size: 28px; /* font size */ 
+		font-size: 36px; /* font size */ 
 		font-weight: 900; /* make boldness as bold as possible */ 
-		margin-left: 60px;
+		margin-left: 50px;
 		margin-top: 7px;
 	}
 
@@ -135,6 +135,7 @@ div.topbar {
 	  margin-top: 10px; /* margin above the boxes */
 	  padding: 11px; /* space between words and edge of button */
 	  text-decoration:none; /* removes underlink from links */
+	  font-size: 30px;
 	}
 
 	.button a:hover {
@@ -142,6 +143,7 @@ div.topbar {
 	  border: 3px solid rgb(201,142,84); /* button border */
 	  color: rgb(201,142,84); /* text color */
 	  font-weight: bolder; /* makes the font bold for visability */
+	  font-size: 30px;
 	}
 
 	.box1 {
