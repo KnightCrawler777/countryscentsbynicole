@@ -67,7 +67,7 @@ div.topbar {
   font-weight: bolder; /* makes the font bold for visability */
 }
 
-.box1 {
+.textbox {
 	background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg"); /* link to image displayed in background */
 	color: white; /* text color */
 	height: 500px; /* height of element */
@@ -75,8 +75,8 @@ div.topbar {
 	top: 75px; /* move it to where there are 75 pixels from it to the top of the page */
 }
 
-.box1 p {
-	font-size: 24px; /* Font size for p text within box1 */
+.textbox p {
+	font-size: 24px; /* Font size for p text within textbox */
 }
 
 /* For iPhone 6 (375 wide browswer) */
@@ -146,7 +146,7 @@ div.topbar {
 	  font-size: 30px;
 	}
 
-	.box1 {
+	.textbox {
 		background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg"); /* link to image displayed in background */
 		color: white; /* text color */
 		height: 500px; /* height of element */
@@ -154,7 +154,7 @@ div.topbar {
 		top: 75px; /* move it to where there are 75 pixels from it to the top of the page */
 	}
 
-	.box1 p {
-		font-size: 24px; /* Font size for p text within box1 */
+	.textbox p {
+		font-size: 24px; /* Font size for p text within textbox */
 	}
 }
