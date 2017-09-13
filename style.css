@@ -104,7 +104,7 @@ div.topbar {
 	div.topbar {
 		background: white; /* set the topbar so it shows a white background behind the buttons */
 		width: 100%; /* make the white background go all the way across the screen */
-		height: 165px;
+		height: 160px;
 	}
 
 	.topbar img {
