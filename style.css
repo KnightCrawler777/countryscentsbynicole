@@ -121,6 +121,10 @@ div.topbar {
 		text-align: center;
 	}
 	
+	#firstbutton {
+		margin-left: 180px;
+	}
+	
 	.buttons a {
 		background: rgb(201,142,84); /* button fill color */
 		border: 3px solid rgb(201,142,84); /* button border */
