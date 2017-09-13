@@ -119,6 +119,7 @@ div.topbar {
 		font-size: 36px; /* font size */ 
 		font-weight: 900; /* make boldness as bold as possible */ 
 		text-align: center;
+		margin-left: 0px; /* remove margin from title because I'm an idiot and put title in the buttons <div>
 	}
 
 	.buttons {
@@ -144,10 +145,6 @@ div.topbar {
 	  color: rgb(201,142,84); /* text color */
 	  font-weight: bolder; /* makes the font bold for visability */
 	  font-size: 30px;
-	}
-	
-	.buttons em {
-		margin-left: 0px; /* remove margin from title because I'm an idiot and put title in the buttons <div>
 	}
 
 	.box1 {
