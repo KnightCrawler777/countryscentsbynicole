@@ -117,7 +117,8 @@ div.topbar {
 		background: white; /* color of background of "button", make white so its not visible */ 
 		border: 0 none white; /* remove background brown color */
 		font-size: 36px; /* font size */ 
-		font-weight: 900; /* make boldness as bold as possible */ 
+		font-weight: 900; /* make boldness as bold as possible */
+		text-align: center;
 	}
 	
 	.buttons a {
