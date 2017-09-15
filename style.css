@@ -3,158 +3,188 @@
   font-family: 'Shadows Into Light';
   font-style: normal;
   font-weight: 400;
-  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYFK2TSYBz0eNcHnp4YqE4Ts.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
+  src: local("Shadows Into Light"), local("ShadowsIntoLight"), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYFK2TSYBz0eNcHnp4YqE4Ts.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
 * {
-  box-sizing: border-box; /* height and width commands include border and padding elements, but not margin */
-  margin: 0; /* space between elements and the edge of the page */
-  padding: 0; /* space between an element and its border */
-}
+  box-sizing: border-box;
+  /* height and width commands include border and padding elements, but not margin */
+  margin: 0;
+  /* space between elements and the edge of the page */
+  padding: 0;
+  /* space between an element and its border */ }
 
 html {
-	background-color: white; /* background color for all html elements unless overridden */
-	/* font-family: "Shadows Into Light", cursive; /* font for all html elements unless overridden */
-	font-family: Papyrus,cursive; /* font for all html elements unless overridden */
-}
+  background-color: white;
+  /* background color for all html elements unless overridden */
+  /* font-family: "Shadows Into Light", cursive; /* font for all html elements unless overridden */
+  font-family: Papyrus,cursive;
+  /* font for all html elements unless overridden */ }
 
 .topbar {
-	position: fixed;
-	z-index: 100;
-}
+  position: fixed;
+  z-index: 100; }
+  .topbar img {
+    width: 60px;
+    height: 60px;
+    margin-top: 7px;
+    margin-right: 50px;
+    float: right; }
+  .topbar em {
+    padding: 8px;
+    /* space between element and its border */
+    color: #c98e54;
+    /* text color */
+    background: white;
+    /* color of background of "button", make white so its not visible */
+    border: 0 none white;
+    /* remove background brown color */
+    font-size: 28px;
+    /* font size */
+    font-weight: 900;
+    /* make boldness as bold as possible */
+    margin-left: 250px;
+    margin-top: 7px; }
 
 div.topbar {
-	background: white; /* set the topbar so it shows a white background behind the buttons */
-	width: 100%; /* make the white background go all the way across the screen */
-}
-
-.topbar img {
-	width:60px;
-	height:60px;
-	margin-top: 7px;
-	margin-right: 50px;
-	float: right;
-}
-
-.topbar em { 
-	padding: 8px; /* space between element and its border */ 
-	color: rgb(201,142,84); /* text color */ 
-	background: white; /* color of background of "button", make white so its not visible */ 
-	border: 0 none white; /* remove background brown color */
-	font-size: 28px; /* font size */ 
-	font-weight: 900; /* make boldness as bold as possible */ 
-	margin-left: 250px;
-	margin-top: 7px;
-}
+  background: white;
+  /* set the topbar so it shows a white background behind the buttons */
+  width: 100%;
+  /* make the white background go all the way across the screen */ }
 
 .buttons a {
-  background: rgb(201,142,84); /* button fill color */
-  border: 3px solid rgb(201,142,84); /* button border */
-  border-radius: 5px; /* curvature of the button corners */
-  color: white; /* text color */
-  display: inline-block; 
-  margin: 10px; /* space between edge of webpage and button */
-  margin-top: 10px; /* margin above the boxes */
-  padding: 11px; /* space between words and edge of button */
-  text-decoration:none; /* removes underlink from links */
-}
-
+  background: #c98e54;
+  /* button fill color */
+  border: 3px solid #c98e54;
+  /* button border */
+  border-radius: 5px;
+  /* curvature of the button corners */
+  color: white;
+  /* text color */
+  display: inline-block;
+  margin: 10px;
+  /* space between edge of webpage and button */
+  margin-top: 10px;
+  /* margin above the boxes */
+  padding: 11px;
+  /* space between words and edge of button */
+  text-decoration: none;
+  /* removes underlink from links */ }
 .buttons a:hover {
-  background: white; /* background color */
-  border: 3px solid rgb(201,142,84); /* button border */
-  color: rgb(201,142,84); /* text color */
-  font-weight: bolder; /* makes the font bold for visability */
-}
+  background: white;
+  /* background color */
+  border: 3px solid #c98e54;
+  /* button border */
+  color: #c98e54;
+  /* text color */
+  font-weight: bolder;
+  /* makes the font bold for visability */ }
 
 .textbox {
-	background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg"); /* link to image displayed in background */
-	color: white; /* text color */
-	height: 500px; /* height of element */
-	position: relative; /* allow me to move box where i want it */
-	top: 75px; /* move it to where there are 75 pixels from it to the top of the page */
-}
-
-.textbox p {
-	font-size: 24px; /* Font size for p text within textbox */
-}
+  background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg");
+  /* link to image displayed in background */
+  color: white;
+  /* text color */
+  height: 500px;
+  /* height of element */
+  position: relative;
+  /* allow me to move box where i want it */
+  top: 75px;
+  /* move it to where there are 75 pixels from it to the top of the page */ }
+  .textbox p {
+    font-size: 24px;
+    /* Font size for p text within textbox */ }
 
 /* For iPhone 6 (375 wide browswer) */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	* {
-		box-sizing: border-box; /* height and width commands include border and padding elements, but not margin */
-		margin: 0; /* space between elements and the edge of the page */
-		padding: 0; /* space between an element and its border */
-	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  * {
+    box-sizing: border-box;
+    /* height and width commands include border and padding elements, but not margin */
+    margin: 0;
+    /* space between elements and the edge of the page */
+    padding: 0;
+    /* space between an element and its border */ }
 
-	html {
-		background-color: white; /* background color for all html elements unless overridden */
-		/* font-family: "Shadows Into Light", cursive; /* font for all html elements unless overridden */
-		font-family: Papyrus,cursive; /* font for all html elements unless overridden */
-	}
+  html {
+    background-color: white;
+    /* background color for all html elements unless overridden */
+    /* font-family: "Shadows Into Light", cursive; /* font for all html elements unless overridden */
+    font-family: Papyrus,cursive;
+    /* font for all html elements unless overridden */ }
 
-	.topbar {
-		position: fixed;
-		z-index: 100;
-	}
+  .topbar {
+    position: fixed;
+    z-index: 100; }
+    .topbar img {
+      display: none;
+      /* do not display the image when page is smaller */ }
+    .topbar em {
+      padding: 8px;
+      /* space between element and its border */
+      color: #c98e54;
+      /* text color */
+      background: white;
+      /* color of background of "button", make white so its not visible */
+      border: 0 none white;
+      /* remove background brown color */
+      font-size: 36px;
+      /* font size */
+      font-weight: 900;
+      /* make boldness as bold as possible */
+      text-align: center; }
 
-	div.topbar {
-		background: white; /* set the topbar so it shows a white background behind the buttons */
-		width: 100%; /* make the white background go all the way across the screen */
-		height: 160px;
-	}
+  div.topbar {
+    background: white;
+    /* set the topbar so it shows a white background behind the buttons */
+    width: 100%;
+    /* make the white background go all the way across the screen */
+    height: 160px; }
 
-	.topbar img {
-		display: none; /* do not display the image when page is smaller */
-	}
+  #firstbutton {
+    margin-left: 190px; }
 
-	.topbar em { 
-		padding: 8px; /* space between element and its border */ 
-		color: rgb(201,142,84); /* text color */ 
-		background: white; /* color of background of "button", make white so its not visible */ 
-		border: 0 none white; /* remove background brown color */
-		font-size: 36px; /* font size */ 
-		font-weight: 900; /* make boldness as bold as possible */
-		text-align: center;
-	}
-	
-	#firstbutton {
-		margin-left: 190px;
-	}
-	
-	.buttons a {
-		background: rgb(201,142,84); /* button fill color */
-		border: 3px solid rgb(201,142,84); /* button border */
-		border-radius: 5px; /* curvature of the button corners */
-		color: white; /* text color */
-		display: inline-block; 
-		margin: 10px; /* space between edge of webpage and button */
-		margin-top: 10px; /* margin above the boxes */
-		padding: 11px; /* space between words and edge of button */
-		text-decoration:none; /* removes underlink from links */
-		font-size: 30px;
-	}
+  .buttons a {
+    background: #c98e54;
+    /* button fill color */
+    border: 3px solid #c98e54;
+    /* button border */
+    border-radius: 5px;
+    /* curvature of the button corners */
+    color: white;
+    /* text color */
+    display: inline-block;
+    margin: 10px;
+    /* space between edge of webpage and button */
+    margin-top: 10px;
+    /* margin above the boxes */
+    padding: 11px;
+    /* space between words and edge of button */
+    text-decoration: none;
+    /* removes underlink from links */
+    font-size: 30px; }
+  .buttons a:hover {
+    background: white;
+    /* background color */
+    border: 3px solid #c98e54;
+    /* button border */
+    color: #c98e54;
+    /* text color */
+    font-weight: bolder;
+    /* makes the font bold for visability */
+    font-size: 30px; }
 
-	.buttons a:hover {
-	  background: white; /* background color */
-	  border: 3px solid rgb(201,142,84); /* button border */
-	  color: rgb(201,142,84); /* text color */
-	  font-weight: bolder; /* makes the font bold for visability */
-	  font-size: 30px;
-	}
+  .textbox {
+    background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg");
+    /* link to image displayed in background */
+    color: white;
+    /* text color */
+    height: 500px;
+    /* height of element */
+    position: relative;
+    /* allow me to move box where i want it */
+    top: 75px;
+    /* move it to where there are 75 pixels from it to the top of the page */ }
+    .textbox p {
+      font-size: 24px;
+      /* Font size for p text within textbox */ } }
 
-	.textbox {
-		background-image: url("http://cdn.wallpapersafari.com/12/18/n6ZRE0.jpg"); /* link to image displayed in background */
-		color: white; /* text color */
-		height: 500px; /* height of element */
-		position: relative; /* allow me to move box where i want it */
-		top: 75px; /* move it to where there are 75 pixels from it to the top of the page */
-	}
-
-	.textbox p {
-		font-size: 24px; /* Font size for p text within textbox */
-	}
-}
+/*# sourceMappingURL=style1.css.map */
